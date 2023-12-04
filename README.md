@@ -59,11 +59,15 @@ Currently, manual testing is done. Future updates may include automated tests.
 
 ## Links
 GitHub Repository:
+- URL: https://github.com/Domj1204/WorkClock-Wizard
+- SSH: git@github.com:Domj1204/WorkClock-Wizard.git
 
-URL: https://github.com/Domj1204/WorkClock-Wizard
-SSH: git@github.com:Domj1204/WorkClock-Wizard.git
 This is the official repository of the Productive Day Organizer on GitHub. It contains all the source code and documentation.
-Live Website:
 
-URL: https://domj1204.github.io/WorkClock-Wizard/
+Live Website:
+- URL: https://domj1204.github.io/WorkClock-Wizard/
+
 Visit this link to see the Productive Day Organizer in action. The live website demonstrates the functionality and user interface of the application.
+
+![Alt text](<images/Screenshot 2023-12-03 at 10.04.41 PM.png>)
+![Alt text](<images/Screenshot 2023-12-03 at 10.03.29 PM.png>)

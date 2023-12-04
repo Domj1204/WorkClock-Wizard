@@ -10,6 +10,7 @@ $(function () {
     var eventText = $(this).siblings('.description').val();
     // Save the event text to local storage with the time block ID
     localStorage.setItem(timeBlockId, eventText);
+    console.log("Event saved for " + timeBlockId + ": " + eventText);
   });
 
   // Applied Past, Present, Future Classes
@@ -20,10 +21,13 @@ $(function () {
     // Add class based on whether the block hour is past, present, or future
     if (blockHour < currentHour) {
       $(this).addClass('past');
+      console.log("Past time block: " + $(this).attr('id'));
     } else if (blockHour === currentHour) {
       $(this).addClass('present');
+      console.log("Present time block: " + $(this).attr('id'));
     } else {
       $(this).addClass('future');
+      console.log("Future time block: " + $(this).attr('id'));
     }
   });
 
@@ -36,6 +40,7 @@ $(function () {
     // If there is a saved event, set it as the value of the textarea
     if (savedEvent) {
       $(this).find('.description').val(savedEvent);
+      console.log("Loaded saved event for " + timeBlockId + ": " + savedEvent);
     }
   });
   });
